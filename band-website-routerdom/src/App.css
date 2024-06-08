@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html{font-size: 62.5%;}
+
+
+*{font-family: lato;}
+
+
+nav{font-size: 1.6rem;
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.2);
+position:fixed;
+width: 100%;
+z-index: 100;}
+
+
+
+
+li{list-style: none;
+  padding: 1.2rem 2.4rem;
+    cursor: pointer;}
+    
+    li:hover{background-color: gray;
+    color: black;}
+
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 16rem;
+    box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: gray;
+color: black;}
+
+
+
+#search{font-size: 2rem;
+float: right;
+padding: 1.2rem 2.4rem;
+cursor: pointer;}
+
+
+#search:hover{background-color: red;  }
+
+
+
+
+.heading{font-size: 3rem;
+margin: 1rem 0;
+letter-spacing: 0.8rem;
+}
+
+
+.box{padding: 6.4rem 1.6rem;}
+
+.heading2{font-size: 1.5rem;
+    font-style: italic;
+    margin: 1.5rem 0;
+    color: gray;
+}
+
+.text{font-size: 1.5rem;
+margin: 1.8rem 15rem;
+text-align: start;}
+
+
+
+.bandbox{gap: 10rem;
+padding-top: 5rem;}
+
+.bandimg{width: 20rem;
+height: 20rem;}
+
+
+
+.datebox{background-color: white;
+width: 80rem;
+margin: 0 auto;
+margin-top: 5rem;
+text-align: start;}
+
+
+.brdr{border-bottom: 1px solid gray;
+padding: 0.8rem;
+color: gray;
+}
+
+
+.sold{background-color: #f44336;
+padding: 0.3rem;
+margin-left: 3rem;
+font-size: 1.5rem;
+color: white;}
+
+.number{background-color: black;
+color: white;
+font-size: 1.5rem;
+padding: 0.7rem;
+text-align: right;
+border: 0;
+border-radius: 2rem;}
+
+
+
+.cityCards{display: flex;
+justify-content: center;
+margin-top: 5rem;
+padding-bottom: 10rem ;
+gap: 2rem;}
+
+
+.card-txt{font-size: 1.5rem;
+color: gray;
+text-align: start;
+margin: 1.5rem 0;}
+
+
+.card-txt2{font-size: 1.5rem;
+margin: 1.5rem 0;
+text-align: start;}
+
+
+.button{font-size: 1.5rem;
+padding: 0.8rem 1.6rem;
+margin: 0 0 1.6rem;
+border: 0;
+background-color: black;
+color: white;
+transition: all 0.3s;}
+
+
+.button:hover{background-color: gray;
+color: black;}
+
+
+
+.contactBox{display: flex;
+  padding: 3.2rem 0;
+  font-size: 1.8rem;
+  text-align: start;
+margin: 0 0 1.6rem;
+justify-content: space-evenly;}
+
+
+
+
+
+.input{padding: 0.8rem;
+  border: 1px solid gray;
+margin: 1rem;}
+
+textarea{width: 45rem;
+  border: 1px solid gray;}
+
+
+
+.iconsBox{display: flex;
+justify-content: center;
+margin-top: 10rem;
+gap: 0.5rem;
+margin-bottom: 10rem;
+cursor: pointer;}
+
+.icons{color: gray;
+transition: all 0.3s;}
+
+
+.icons:hover{color: black;}
+
+
+
+#map{text-align: center;}
+
+
+
+
+
+
+@media(max-width:998px){
+  html{font-size: 55%;}
+}
+
+@media(max-width:768px){
+  html{font-size: 45%;}
+}
