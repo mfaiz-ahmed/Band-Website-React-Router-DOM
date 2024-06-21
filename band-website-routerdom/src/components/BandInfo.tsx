@@ -1,8 +1,11 @@
 import React from 'react'
 import BandMember from './Assets/Band-Member.jpg'
+import Navbar from './Navbar'
 
 export default function BandInfo() {
   return (
+    <>
+    <Navbar/>
     <div id='band' className='text-center box'>
       <h1 className='heading'>THE BAND</h1>
       <h2 className='heading2'>We love music!</h2>
@@ -22,5 +25,6 @@ export default function BandInfo() {
             </div>
         </div>
     </div>
+    </>
   )
 }
